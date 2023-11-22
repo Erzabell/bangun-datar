@@ -46,8 +46,9 @@ class CustomMenu extends StatelessWidget {
     return Container(
         margin: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
         padding: EdgeInsets.symmetric(horizontal: 23, vertical: 16),
-        decoration: BoxDecoration(color: Colors.green,borderRadius: BorderRadius.circular(15)),
-        
+        decoration: BoxDecoration(
+            color: Colors.green, borderRadius: BorderRadius.circular(15)),
+
 
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
